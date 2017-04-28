@@ -1,0 +1,43 @@
+{
+	"name": "polyfills",
+	"license": "Apache",
+	"version": "1.0.0",
+	"description": "Polyfills for the browser",
+	"author":
+	{
+		"name": "Adrian Ber",
+		"email": "beradrian@yahoo.com"
+	},
+
+	"repository":
+	{
+		"type": "git",
+		"url": "https://github.com/beradrian/polyfills.git"
+	},
+
+	"main": "index.js",
+	"dependencies":
+	{
+	},
+
+	"devDependencies":
+	{
+		"jasmine": "latest",
+		"jasmine-ajax": "latest",
+		"jasmine-core": "latest",
+		"js-quantities": "latest",
+		"karma": "latest",
+		"karma-babel-preprocessor": "latest",
+		"karma-browserify": "latest",
+		"karma-chrome-launcher": "latest",
+		"karma-commonjs": "latest",
+		"karma-firefox-launcher": "latest",
+		"karma-jasmine": "latest",
+		"karma-jasmine-ajax": "latest",
+	},
+
+	"scripts":
+	{
+		"test": "node_modules/.bin/karma start src/test/karma.conf.js"
+	}
+}
