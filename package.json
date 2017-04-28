@@ -15,20 +15,20 @@
 		"url": "https://github.com/beradrian/polyfills.git"
 	},
 
+	"dependencies":
+	{
+	},
+
 	"devDependencies":
 	{
 		"jasmine": "latest",
-		"jasmine-ajax": "latest",
 		"jasmine-core": "latest",
-		"js-quantities": "latest",
 		"karma": "latest",
 		"karma-babel-preprocessor": "latest",
-		"karma-browserify": "latest",
 		"karma-chrome-launcher": "latest",
 		"karma-commonjs": "latest",
 		"karma-firefox-launcher": "latest",
-		"karma-jasmine": "latest",
-		"karma-jasmine-ajax": "latest",
+		"karma-jasmine": "latest"
 	},
 
 	"scripts":
