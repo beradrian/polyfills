@@ -15,11 +15,6 @@
 		"url": "https://github.com/beradrian/polyfills.git"
 	},
 
-	"main": "index.js",
-	"dependencies":
-	{
-	},
-
 	"devDependencies":
 	{
 		"jasmine": "latest",
