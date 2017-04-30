@@ -5,5 +5,5 @@ Shim.prefixProperty(window, "requestFileSystem");
 Shim.prefixProperty(window, "resolveLocalFileSystemURL");
 
 if (!LocalFileSystem) {
-	LocalFileSystem = window;
+	window.LocalFileSystem = window;
 }
