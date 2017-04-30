@@ -1,7 +1,7 @@
 {
 	"name": "polyfills",
 	"license": "Apache",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Polyfills for the browser",
 	"author":
 	{
