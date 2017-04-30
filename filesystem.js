@@ -4,6 +4,6 @@ Shim.prefixProperty(window, "requestQuota");
 Shim.prefixProperty(window, "requestFileSystem");
 Shim.prefixProperty(window, "resolveLocalFileSystemURL");
 
-if (!LocalFileSystem) {
+if (!window.LocalFileSystem) {
 	window.LocalFileSystem = window;
 }
