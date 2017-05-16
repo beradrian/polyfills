@@ -17,7 +17,7 @@ After [installing](#installation), add somewhere in the beginning of your script
 require('polyfills/<module>');
 ```
 
-or in Typescript
+or in Typescript (in Angular2-4 add it to `polyfills.ts`)
 
 ```ts
 import 'polyfills/<module>';
